@@ -9,4 +9,15 @@ Overall, the coding process has been smooth and fun, with small challenges in al
 
 The interface is very self-explanatory for users. On the widgets at the top-left corner, one can select two gases in the dropdown menu. The change of concentrations of the two selected gases will show up at the bottom, and the correlation plot will show up at the top-right corner. One can zoom in and out, and highlight a certain region of data by selecting them on the figures. The table summarizes the mean and standard deviation of the concentration in the selected time frame.
 
-Unfortunately, it does not seem like the amplitude of that specific vibrational peak of the samples correlates with any of the gases surveyed. It can be attributed to the small sample size and the inconsistent lengths of the sample collection time. Because our technique is only sensitive to surface composition, samples with long collection times might have a significant portion of material buried and undetected. Or, at the end of the day, perhaps the amplitude of a single peak is indeed not a good indicator for such complicated mixtures. Other than that, correlations between certain gas species are obvious. For example, the concentrations of ammonium and sulfate groups have a strong correlation, and the NOy and SO2 species show spiked concentrations at the same time, too. Of course, this is the very initial stage of this work. I haven’t really dug into the statistics and the physics behind. But this visualization is very helpful for getting an overall idea of the dataset and directing our eyes to what are interesting.
+Because the data have not been published, in the notebook on the GitHub, I generated fake periodic time series data to demonstrate the template. When running the code for the first time, install the most recent version of timesynth module with the following command:
+```
+%%capture
+!pip uninstall timesynth --yes
+!pip install git+https://github.com/TimeSynth/TimeSynth.git
+```
+
+A Bokeh server is needed for full interactivity. In the terminal, navigate to the directory and then run:
+`bokeh serve project_Bokeh_fakedata.ipynb`
+Now, navigate to the following URL in a browser:
+`http://localhost:5006/project_Bokeh_fakedata`
+
