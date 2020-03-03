@@ -18,9 +18,9 @@ Because the data have not been published, in the notebook on the GitHub, I gener
 
 A Bokeh server is needed for full interactivity. In the terminal, navigate to the directory and then run:
 ```
-bokeh serve project_Bokeh_fakedata.ipynb
+bokeh serve project_Bokeh_mockdata.ipynb
 ```
 Now, navigate to the following URL in a browser:
 ```
-http://localhost:5006/project_Bokeh_fakedata
+http://localhost:5006/project_Bokeh_mockdata
 ```
