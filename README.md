@@ -10,6 +10,9 @@ Overall, the coding process has been smooth and fun, with small challenges in al
 
 ### Interface
 ![This is a screenshot of the interface](Interface_demo.png)
+
+#### (After highlighting data in a certain time frame with the "Box Select" tool:)
+
 ![This is a screenshot of the interface](Interface_demo_selected.png)
 
 The interface is very self-explanatory for users. On the widgets at the top-left corner, one can select two sample gases in the dropdown menu. The change of concentrations of the two selected sample gases over time will show up at the bottom, and the correlation plot will show up at the top-right corner. Pay attention to the tools on the side of each graph. One can zoom in and out, highlight data in a certain time frame by using the "Box Select" tool, and hover on data points to read the values. The table summarizes the mean and standard deviation of the concentration in the selected time frame. 
